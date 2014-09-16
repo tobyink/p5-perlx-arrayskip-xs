@@ -9,3 +9,9 @@
 	changeset [
 		item "use Dist::Inkt"^^Packaging;
 	].
+
+`PerlX-ArraySkip-XS 0.004 cpan:TOBYINK`
+	issued  2013-09-16;
+	changeset [
+		item "Remove Changes and Makefile.PL from source tree; these should be automatically built by Dist::Inkt when packaging the distribution."^^Packaging;
+	].

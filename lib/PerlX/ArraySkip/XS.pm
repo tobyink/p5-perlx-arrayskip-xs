@@ -14,7 +14,7 @@ our @EXPORT_OK = @{ $EXPORT_TAGS{all} };
 our @EXPORT    = @{ $EXPORT_TAGS{default} };
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.003';
+our $VERSION   = '0.004';
 
 require XSLoader;
 XSLoader::load('PerlX::ArraySkip::XS', $VERSION);
