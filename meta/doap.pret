@@ -1,0 +1,28 @@
+# This file contains general metadata about the project.
+
+@prefix : <http://usefulinc.com/ns/doap#>.
+
+`PerlX-ArraySkip-XS`
+	:programming-language "Perl" ;
+	:shortdesc            "XS backend for PerlX::ArraySkip";
+	:homepage             <https://metacpan.org/release/PerlX-ArraySkip-XS>;
+	:download-page        <https://metacpan.org/release/PerlX-ArraySkip-XS>;
+	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=PerlX-ArraySkip-XS>;
+	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-perlx-arrayskip-xs> ];
+	:created              2013-05-14;
+	:license              <http://dev.perl.org/licenses/>;
+	:seealso              `PerlX-ArraySkip`;
+	:maintainer           cpan:TOBYINK;
+	:developer            cpan:TOBYINK.
+
+`PerlX-ArraySkip`
+	:programming-language "Perl" ;
+	:shortdesc            "sub { shift; @_ }";
+	:homepage             <https://metacpan.org/release/PerlX-ArraySkip>;
+	:license              <http://dev.perl.org/licenses/>;
+	:maintainer           cpan:TOBYINK;
+	:developer            cpan:TOBYINK.	
+
+<http://dev.perl.org/licenses/>
+	dc:title  "the same terms as the perl 5 programming language system itself".
+
